@@ -69,13 +69,14 @@
             ComprobarBTN.Name = "ComprobarBTN";
             ComprobarBTN.Size = new Size(50, 20);
             ComprobarBTN.TabIndex = 1;
-            ComprobarBTN.Text = "Comprobar";
+            ComprobarBTN.Text = "CE";
             ComprobarBTN.UseVisualStyleBackColor = false;
+            ComprobarBTN.Click += ComprobarBTN_Click;
             // 
             // ResultLB
             // 
             ResultLB.AutoSize = true;
-            ResultLB.Location = new Point(103, 397);
+            ResultLB.Location = new Point(108, 404);
             ResultLB.Name = "ResultLB";
             ResultLB.Size = new Size(38, 15);
             ResultLB.TabIndex = 2;
@@ -89,8 +90,9 @@
             button1.Name = "button1";
             button1.Size = new Size(50, 20);
             button1.TabIndex = 3;
-            button1.Text = "Comprobar";
+            button1.Text = "^";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -100,7 +102,7 @@
             button2.Name = "button2";
             button2.Size = new Size(50, 20);
             button2.TabIndex = 4;
-            button2.Text = "Comprobar";
+            button2.Text = "√";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
@@ -111,7 +113,7 @@
             button3.Name = "button3";
             button3.Size = new Size(50, 20);
             button3.TabIndex = 5;
-            button3.Text = "Comprobar";
+            button3.Text = "%";
             button3.UseVisualStyleBackColor = true;
             // 
             // button4
@@ -122,7 +124,7 @@
             button4.Name = "button4";
             button4.Size = new Size(50, 20);
             button4.TabIndex = 9;
-            button4.Text = "Comprobar";
+            button4.Text = "/";
             button4.UseVisualStyleBackColor = true;
             // 
             // button5
@@ -133,7 +135,7 @@
             button5.Name = "button5";
             button5.Size = new Size(50, 20);
             button5.TabIndex = 8;
-            button5.Text = "Comprobar";
+            button5.Text = "9";
             button5.UseVisualStyleBackColor = true;
             // 
             // button6
@@ -144,8 +146,9 @@
             button6.Name = "button6";
             button6.Size = new Size(50, 20);
             button6.TabIndex = 7;
-            button6.Text = "Comprobar";
+            button6.Text = "8";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
@@ -155,7 +158,7 @@
             button7.Name = "button7";
             button7.Size = new Size(50, 20);
             button7.TabIndex = 6;
-            button7.Text = "Comprobar";
+            button7.Text = "7";
             button7.UseVisualStyleBackColor = true;
             // 
             // button8
@@ -166,7 +169,7 @@
             button8.Name = "button8";
             button8.Size = new Size(50, 20);
             button8.TabIndex = 17;
-            button8.Text = "Comprobar";
+            button8.Text = "-";
             button8.UseVisualStyleBackColor = true;
             // 
             // button9
@@ -177,7 +180,7 @@
             button9.Name = "button9";
             button9.Size = new Size(50, 20);
             button9.TabIndex = 16;
-            button9.Text = "Comprobar";
+            button9.Text = "3";
             button9.UseVisualStyleBackColor = true;
             // 
             // button10
@@ -188,8 +191,9 @@
             button10.Name = "button10";
             button10.Size = new Size(50, 20);
             button10.TabIndex = 15;
-            button10.Text = "Comprobar";
+            button10.Text = "2";
             button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
             // 
             // button11
             // 
@@ -199,7 +203,7 @@
             button11.Name = "button11";
             button11.Size = new Size(50, 20);
             button11.TabIndex = 14;
-            button11.Text = "Comprobar";
+            button11.Text = "1";
             button11.UseVisualStyleBackColor = true;
             // 
             // button12
@@ -210,7 +214,7 @@
             button12.Name = "button12";
             button12.Size = new Size(50, 20);
             button12.TabIndex = 13;
-            button12.Text = "Comprobar";
+            button12.Text = "*";
             button12.UseVisualStyleBackColor = true;
             // 
             // button13
@@ -221,7 +225,7 @@
             button13.Name = "button13";
             button13.Size = new Size(50, 20);
             button13.TabIndex = 12;
-            button13.Text = "Comprobar";
+            button13.Text = "6";
             button13.UseVisualStyleBackColor = true;
             // 
             // button14
@@ -232,8 +236,9 @@
             button14.Name = "button14";
             button14.Size = new Size(50, 20);
             button14.TabIndex = 11;
-            button14.Text = "Comprobar";
+            button14.Text = "5";
             button14.UseVisualStyleBackColor = true;
+            button14.Click += button14_Click;
             // 
             // button15
             // 
@@ -243,7 +248,7 @@
             button15.Name = "button15";
             button15.Size = new Size(50, 20);
             button15.TabIndex = 10;
-            button15.Text = "Comprobar";
+            button15.Text = "4";
             button15.UseVisualStyleBackColor = true;
             // 
             // button20
@@ -254,7 +259,7 @@
             button20.Name = "button20";
             button20.Size = new Size(50, 20);
             button20.TabIndex = 21;
-            button20.Text = "Comprobar";
+            button20.Text = "+";
             button20.UseVisualStyleBackColor = true;
             // 
             // button21
@@ -265,7 +270,7 @@
             button21.Name = "button21";
             button21.Size = new Size(50, 20);
             button21.TabIndex = 20;
-            button21.Text = "Comprobar";
+            button21.Text = "=";
             button21.UseVisualStyleBackColor = true;
             // 
             // button22
@@ -276,7 +281,7 @@
             button22.Name = "button22";
             button22.Size = new Size(50, 20);
             button22.TabIndex = 19;
-            button22.Text = "Comprobar";
+            button22.Text = ".";
             button22.UseVisualStyleBackColor = true;
             // 
             // button23
@@ -287,7 +292,7 @@
             button23.Name = "button23";
             button23.Size = new Size(50, 20);
             button23.TabIndex = 18;
-            button23.Text = "Comprobar";
+            button23.Text = "0";
             button23.UseVisualStyleBackColor = true;
             // 
             // Form1
